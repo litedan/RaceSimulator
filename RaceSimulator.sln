@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34707.107
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaceSimulator.BC", "RaceSimulator.BC\RaceSimulator.BC.csproj", "{06750E4D-F287-4C56-9F06-C3E741A36385}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaceSimulator.CMD", "RaceSimulator.CMD\RaceSimulator.CMD.csproj", "{44D2151C-E223-45BB-93D5-9E6BFE221A06}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06750E4D-F287-4C56-9F06-C3E741A36385}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06750E4D-F287-4C56-9F06-C3E741A36385}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06750E4D-F287-4C56-9F06-C3E741A36385}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06750E4D-F287-4C56-9F06-C3E741A36385}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44D2151C-E223-45BB-93D5-9E6BFE221A06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44D2151C-E223-45BB-93D5-9E6BFE221A06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44D2151C-E223-45BB-93D5-9E6BFE221A06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44D2151C-E223-45BB-93D5-9E6BFE221A06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
